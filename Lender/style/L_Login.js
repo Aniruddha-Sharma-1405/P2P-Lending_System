@@ -1,11 +1,11 @@
-const signUpButton = document.getElementById('signUp');
-const signInButton = document.getElementById('signIn');
-const container = document.getElementById('container');
+// const signInButton = document.getElementById('signIn');
+// const email = document.getElementById('email');
+// const pass = document.getElemnetById('pass');
+window.onload = function(){ 
+document.getElementById('signin').onclick = function(){HomePageRedirect()}
 
-signUpButton.addEventListener('click', () => {
-	container.classList.add("right-panel-active");
-});
-
-signInButton.addEventListener('click', () => {
-	container.classList.remove("right-panel-active");
-});
+function HomePageRedirect(){
+    let url = "/LHome_Page.html"; 
+    location.href = url ;
+}
+};
