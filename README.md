@@ -1,10 +1,11 @@
 # P2P-Lending_System
 Install mySQL and H2 database.
 
-start the mySQL database by:
-
-mysql.server start
-mysql
+Start the mySQL database by:
+'''sh
+$ mysql.server start
+'''
+$ mysql
 
 After the terminal enters mysql command interface.
 
