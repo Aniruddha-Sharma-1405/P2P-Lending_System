@@ -2,10 +2,9 @@
 Install mySQL and H2 database.
 
 Start the mySQL database by:
-'''sh
-$ mysql.server start
-'''
-$ mysql
+
+mysql.server start
+mysql
 
 After the terminal enters mysql command interface.
 
